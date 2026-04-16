@@ -1,0 +1,23 @@
+
+{
+  "name": "minecord-pro",
+  "version": "3.0.0",
+  "description": "Advanced Minecraft ↔ Discord bridge with multi-server RCON and bidirectional sync",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["minecraft", "discord", "rcon", "bridge", "bot"],
+  "author": "Minecord",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "prepare": "npm run build"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.0",
+    "ts-node": "^10.9.2"
+  }
+}
